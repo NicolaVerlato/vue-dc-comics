@@ -7,7 +7,7 @@
             <div class="header-list">
                 <ul>
                     <li v-for="element, index in headerList" :key="index" :class="{'underline': element.underline}">
-                        <a :href="link">{{element.text}}</a>
+                        <a :href="element.link">{{element.text}}</a>
                     </li>
                 </ul>
             </div>
@@ -81,13 +81,13 @@ export default {
 @import '../style/color';
 
 header{
-    height: 80px;
+    height: 114px;
     padding-top: 20px;
 }
 .container{
     display: flex;
     justify-content: space-between;
-    line-height: 80px;
+    line-height: 70px;
 
     .logo{
         width: 80px;
@@ -100,11 +100,14 @@ header{
         font-size: 12px;
 
         &.underline{
-            color: $secondary_color;
             border-bottom: 4px solid $secondary_color;
+
+            a{
+                color: $secondary_color;
+            }
         }
     }
-    li{
+    li a{
         color: $main_color;
     }
 }

@@ -54,6 +54,8 @@ section{
     background-color: $secondary_color;
     color: white;
     padding: 40px 0;
+    position: relative;
+    z-index: 10;
 
     ul{
         display: flex;

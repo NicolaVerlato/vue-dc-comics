@@ -149,9 +149,9 @@ section{
     }
 
     .image img{
-        width: 415px;
+        width: 460px;
         position: absolute;
-        top: -70px;
+        top: -80px;
         right: 0;
     }
 

@@ -9,6 +9,7 @@
 
     <footer>
       <ListFooter />
+      <FooterBottom />
     </footer>
 
   </div>
@@ -20,6 +21,7 @@ import FileHeader from './components/FileHeader.vue'
 import MainContent from './components/MainContent.vue'
 import ListContent from './components/ListContent.vue'
 import ListFooter from './components/ListFooter.vue'
+import FooterBottom from './components/FooterBottom.vue'
 
 
 export default {
@@ -29,7 +31,8 @@ export default {
     FileHeader,
     MainContent,
     ListContent,
-    ListFooter
+    ListFooter,
+    FooterBottom
 }
 }
 </script>

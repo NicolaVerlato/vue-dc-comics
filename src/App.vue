@@ -7,6 +7,10 @@
       <ListContent />
     </main>
 
+    <footer>
+      <ListFooter />
+    </footer>
+
   </div>
 </template>
 
@@ -15,6 +19,8 @@
 import FileHeader from './components/FileHeader.vue'
 import MainContent from './components/MainContent.vue'
 import ListContent from './components/ListContent.vue'
+import ListFooter from './components/ListFooter.vue'
+
 
 export default {
   name: 'App',
@@ -22,7 +28,8 @@ export default {
     // HelloWorld
     FileHeader,
     MainContent,
-    ListContent
+    ListContent,
+    ListFooter
 }
 }
 </script>

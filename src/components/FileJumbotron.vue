@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 section{
-    height: 300px;
+    height: 350px;
     overflow-y: hidden;
 }
 </style>

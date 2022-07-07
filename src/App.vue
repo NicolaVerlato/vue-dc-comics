@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <FileHeader />
+    <header>
+      <FileHeader />
+    </header>
 
     <main>
+      <FileJumbotron />
       <MainContent />
       <ListContent />
     </main>
@@ -16,8 +19,8 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import FileHeader from './components/FileHeader.vue'
+import FileJumbotron from './components/FileJumbotron.vue'
 import MainContent from './components/MainContent.vue'
 import ListContent from './components/ListContent.vue'
 import ListFooter from './components/ListFooter.vue'
@@ -27,8 +30,8 @@ import FooterBottom from './components/FooterBottom.vue'
 export default {
   name: 'App',
   components: {
-    // HelloWorld
     FileHeader,
+    FileJumbotron,
     MainContent,
     ListContent,
     ListFooter,

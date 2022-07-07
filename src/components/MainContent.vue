@@ -1,14 +1,19 @@
 <template>
     <section>
         <div class="container">
-            content
+            <!-- <FileJumbotron /> -->
         </div>
     </section>
 </template>
 
 <script>
+// import FileJumbotron from './FileJumbotron.vue'
+
 export default {
-    name: 'MainContent'
+    name: 'MainContent',
+    components: {
+        // FileJumbotron
+    }
 }
 </script>
 

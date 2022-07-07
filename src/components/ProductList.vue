@@ -32,7 +32,8 @@ export default {
 
     .text{
         color: lightgrey;
-        margin-top: 20px;
+        margin-top: 15px;
+        font-size: 12px;
         text-transform: uppercase;
     }
 }
